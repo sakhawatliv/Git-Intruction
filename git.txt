@@ -1,0 +1,13 @@
+echo # test2 >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sakhawatliv/test2.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/sakhawatliv/test2.git
+git push -u origin master
+
+link:https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
